@@ -1,0 +1,13 @@
+dataset:
+  path: "data/processed/test_data.pt"
+  batch_size: 32
+
+metrics:
+  - "accuracy"
+  - "precision"
+  - "recall"
+  - "f1_score"
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

@@ -1,0 +1,16 @@
+federated_learning:
+  num_clients: 5
+  num_rounds: 10
+  epochs_per_client: 3
+  learning_rate: 0.01
+  batch_size: 32
+
+differential_privacy:
+  enabled: true
+  sample_rate: 0.1
+  noise_multiplier: 1.0
+  max_grad_norm: 1.0
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

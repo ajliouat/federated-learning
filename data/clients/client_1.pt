@@ -1,0 +1,6 @@
+# This file is generated during preprocessing.
+# Example content for one client's data:
+{
+    'features': torch.randn(200, 784),  # Example: 200 samples, 784 features
+    'labels': torch.randint(0, 10, (200,))  # Example: 200 labels
+}
